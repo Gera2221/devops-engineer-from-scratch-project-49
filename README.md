@@ -22,7 +22,12 @@ cd devops-engineer-from-scratch-project-49
 
 ## Использование
 
-<!-- Добавьте примеры запуска и запись asciinema — именно это смотрит работодатель -->
+<!-- Аскинема с примером установки пакета, запуска игры, победой и поражением игрока. -->
+  brain-even         https://asciinema.org/a/MgFvqe73UNCXmPEr
+  brain-calc         https://asciinema.org/a/o5eoF1Z6u46LBznr
+  brain-gcd          https://asciinema.org/a/QowEvrOnKkiO0EeC
+  brain-progression  https://asciinema.org/a/T7SAku0p70AnN1Ek
+  brain-prime        https://asciinema.org/a/ffBC1sYdhvyE0hqK
 
 ---
 
@@ -36,3 +41,5 @@ cd devops-engineer-from-scratch-project-49
 ## О Хекслете
 
 [Хекслет](https://ru.hexlet.io/) — школа программирования: авторские программы обучения с практикой, поддержкой наставников и реальными проектами, которые остаются в резюме. Этот репозиторий — один из таких проектов.
+
+##  Аскинема с примером установки пакета, запуска игры, победой и поражением игрока.
