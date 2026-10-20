@@ -23,7 +23,7 @@ def run_game(game):
             return
 
     if counter == 3:
-        print(f'Congratulations, {name}')
+        print(f'Congratulations, {name}!')
 
         
 
