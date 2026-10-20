@@ -5,7 +5,7 @@ DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def get_logic():
     number = random.randint(1,100)
-    question = f'{number}'
+    question = f'Question: {number}'
     if is_prime(number):
         correct_answer = 'yes'
     else:

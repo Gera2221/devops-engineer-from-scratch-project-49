@@ -9,6 +9,6 @@ def get_logic():
     hidden_index = random.randrange(10)
     correct_answer = progression[hidden_index]
     progression[hidden_index] = '..'
-    question = f'{" ".join(map(str, progression))}'
+    question = f'Question: {" ".join(map(str, progression))}'
 
     return question, correct_answer
