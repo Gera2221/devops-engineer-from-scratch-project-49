@@ -18,7 +18,7 @@ def run_game(game):
         if answer == str(correct_answer):
             counter += 1 
             print('Correct!')
-        elif answer != str(correct_answer):
+        else:
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {name}!")
             return
 
