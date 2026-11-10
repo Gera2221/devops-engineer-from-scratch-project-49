@@ -1,7 +1,2 @@
-.venv
-<<<<<<< HEAD
-brain_games/__pycache__
-=======
-brain_games/games/pycache
-brain_games/scripts/pycache
->>>>>>> dd1c555 (stop tracking files from gitignore)
+.venv/
+__pycache__/
