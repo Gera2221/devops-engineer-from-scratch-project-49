@@ -36,7 +36,11 @@ def is_prime(number):
     for devider in range(2,number):
         if number % devider == 0:
             return False
-
     return True
+
+def is_even(number):
+    if number % 2 != 0:
+        return False
+    return True 
 
 
