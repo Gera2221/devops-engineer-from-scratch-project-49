@@ -6,8 +6,8 @@ import prompt
 DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 def get_logic():
-    number1 = random.randint(0,100)
-    number2 = random.randint(0,100)
+    number1 = random.randint(1,100)
+    number2 = random.randint(1,100)
     correct_answer = gcd(number1, number2)
 
     question = (f'Question: {number1} {number2}')
