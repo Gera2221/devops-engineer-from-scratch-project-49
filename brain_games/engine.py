@@ -1,5 +1,6 @@
-from brain_games.logic import greeting
 import prompt
+
+from brain_games.logic import greeting
 
 
 def run_game(game):
@@ -19,7 +20,11 @@ def run_game(game):
             counter += 1 
             print('Correct!')
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {name}!")
+            print(
+    f"'{answer}' is wrong answer ;(. "
+    f"Correct answer was '{correct_answer}'.\n"
+    f"Let's try again, {name}!"
+)
             return
 
     if counter == 3:

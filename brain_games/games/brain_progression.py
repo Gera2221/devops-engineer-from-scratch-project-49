@@ -1,8 +1,9 @@
-from brain_games.logic import random_progression
 import random
-import prompt
+
+from brain_games.logic import random_progression
 
 DESCRIPTION = 'What number is missing in the progression?'
+
 
 def get_logic():
     progression = random_progression()

@@ -1,11 +1,12 @@
-from brain_games.logic import is_prime
 import random
 
+from brain_games.logic import is_prime
 
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
+
 def get_logic():
-    number = random.randint(1,100)
+    number = random.randint(1, 100)
     question = f'Question: {number}'
     if is_prime(number):
         correct_answer = 'yes'

@@ -1,11 +1,12 @@
-from brain_games.logic import is_even
 import random
 
+from brain_games.logic import is_even
 
 DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
+
 def get_logic():
-    number = random.randint(1,1000)
+    number = random.randint(1, 1000)
     question = f'Question: {number}'
     if is_even(number):
         correct_answer = 'yes'
