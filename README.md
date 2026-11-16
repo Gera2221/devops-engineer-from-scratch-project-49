@@ -9,7 +9,8 @@
 
 ## Стек
 
-- Python
+- Python 3.12 или новее
+- uv
 
 ## Установка
 
@@ -18,6 +19,15 @@
 ```bash
 git clone https://github.com/Gera2221/devops-engineer-from-scratch-project-49.git
 cd devops-engineer-from-scratch-project-49
+uv sync
+uv build
+uv tool install dist/*.whl
+#ДАЛЕЕ ПОСЛЕ УСТАНОВКИ КАЖДАЯ ИЗ СЛЕДУЮЩИХ КОМАНД ЗАПУСКАЕТ ИГРУ ИЗ ЛЮБОГО КАТАЛОГА:
+brain-even
+brain-calc
+brain-gcd
+brain-progression
+brain-prime
 ```
 
 ## Использование
@@ -26,7 +36,7 @@ cd devops-engineer-from-scratch-project-49
   brain-even         https://asciinema.org/a/MgFvqe73UNCXmPEr
   brain-calc         https://asciinema.org/a/o5eoF1Z6u46LBznr
   brain-gcd          https://asciinema.org/a/QowEvrOnKkiO0EeC
-  brain-progression  https://asciinema.org/a/T7SAku0p70AnN1Ek
+  brain-progression  
   brain-prime        https://asciinema.org/a/ffBC1sYdhvyE0hqK
 
 ---
