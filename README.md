@@ -36,8 +36,8 @@ brain-prime
   brain-even         https://asciinema.org/a/MgFvqe73UNCXmPEr
   brain-calc         https://asciinema.org/a/o5eoF1Z6u46LBznr
   brain-gcd          https://asciinema.org/a/QowEvrOnKkiO0EeC
-  brain-progression  
-  brain-prime        https://asciinema.org/a/ffBC1sYdhvyE0hqK
+  brain-progression  https://asciinema.org/a/oxZAFmcbFgsJL1z4
+  brain-prime        https://asciinema.org/a/ov64VAvAFTgehyZ9        
 
 ---
 
